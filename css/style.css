@@ -1,50 +1,161 @@
 /*** UTILITY ***/
-*{
-    margin:0;
-    padding : 0;
-    box-sizing:border-box;
- }
-:root{
-    --blue:#0084FD;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue: #0084FD;
     --purple: #9792E4;
-    --lightblue:#B5DDFF;
+    --lightblue: #B5DDFF;
     --orange: #FDC15F;
     --darkgray: #333333;
-    --blak: #000;
-    --white:#FFF;
+    --black: #000;
+    --white: #FFF;
 }
-body{
+
+body {
     font-family: 'PT Sans', sans-serif;
 }
 
 /**** CLASS FLEX***/
-.d-flex{
+.d-flex {
     display: flex;
 }
 
-.j-between{
-justify-content: space-between;
+.j-between {
+    justify-content: space-between;
 }
-.aling-center{
+
+.aling-center {
     align-items: center;
 }
+
 /** Container class ***/
 .container {
     max-width: 600px;
-    margin : 0 auto ; 
+    margin: 0 auto;
 }
 
 /**** HEADER ***/
-header{
+header {
     background-color: var(--blue);
-    color:var(--white);
+    color: var(--white);
 }
-header span i {
-    filter: invert(1);
+
+header .hamburger{
+    color:white;
+ 
 }
-.main-menu{
-    display:none;
+
+.main-menu {
+    display: none;
 }
+
 header .container {
-    padding:0.5rem 0 ;
+    padding: 0.5rem 0;
+}
+
+/***MAIN **/
+#planning,
+#features,
+#get-started {
+    Background-color: var(--purple);
+}
+
+#intro {
+    padding: 0.2em
+}
+
+#intro .card {
+
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    width: (33.33% - 1.5rem);
+    background-color: var(--lightblue);
+    margin: 1.25rem;
+    border-radius: 1.5rem;
+    padding-left: 2rem;
+    padding: 50px;
+
+}
+
+#intro .cards {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+}
+
+.cards h3 {
+    color: var(--blue);
+    margin: auto;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.card div i {
+    color: var(--blue);
+    margin: 1rem auto;
+    font-size: 7rem;
+}
+
+#apple {
+    color: var(--black);
+    font-size: 1em;
+}
+
+.card img {
+    width: 80%;
+    margin:0 auto ;
+
+}
+
+.card p {
+    text-align: center;
+    line-height: 2em;
+    font-size: 1.5em;
+    margin: 1.5rem 0;
+    padding: 0 1rem;
+}
+
+.card h3:first-child{
+    text-align: left;
+}
+.card:first-child p {
+    text-align: left;
+    padding: 0;
+}
+.card:first-child{
+    position:relative;
+    height: 95vh;
+}
+.card:first-child .img-div{
+    position: absolute;
+    bottom: 0;
+    left:0;
+    text-align: center;
+}
+.btn{
+    background-color: var(--blue);
+    text-align: center;
+    width: 75%;
+    border-radius: 15rem;
+    font-size: 1.2em;
+    
+
+}
+
+.btn a {
+    color:var(--white);
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn i {
+    color: var(--white);
+    margin-right: 10px;
+    filter:invert(1);
+    position: relative;
+    right: 10px;
 }
