@@ -1,8 +1,9 @@
 /*** UTILITY ***/
-footer{
+footer {
     height: 200px;
     background-color: #000;
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -50,9 +51,9 @@ header {
     color: var(--white);
 }
 
-header .hamburger{
-    color:white;
- 
+header .hamburger {
+    color: white;
+
 }
 
 .main-menu {
@@ -118,7 +119,7 @@ header .container {
 
 .card img {
     width: 80%;
-    margin:0 auto ;
+    margin: 0 auto;
 
 }
 
@@ -130,43 +131,48 @@ header .container {
     padding: 0 1rem;
 }
 
-.card h3:first-child{
+.card h3:first-child {
     text-align: left;
 }
+
 .card:first-child p {
     text-align: left;
     padding: 0;
 }
-.card:first-child{
-    position:relative;
+
+.card:first-child {
+    position: relative;
     height: 95vh;
 }
-.card:first-child .img-div{
+
+.card:first-child .img-div {
     position: absolute;
     bottom: 0;
-    left:0;
+    left: 0;
     text-align: center;
 
 }
-.btn{
+
+.btn {
     background-color: var(--blue);
     text-align: center;
     width: 75%;
     border-radius: 15rem;
     font-size: 1.2em;
-    
+
 
 }
 
 .btn a {
-    color:var(--white);
+    color: var(--white);
     text-decoration: none;
     font-weight: bold;
 }
+
 .btn i {
     color: var(--white);
     margin-right: 10px;
-    filter:invert(1);
+    filter: invert(1);
     position: relative;
     right: 10px;
 }
@@ -176,47 +182,54 @@ header .container {
 #planning img {
     width: 100%;
     margin: 5em auto;
-    color:var(--white);
+    color: var(--white);
 }
-#planning h2{
- color: var(--white);
-margin-bottom: 2em;
-font-size:4em ;
+
+#planning h2 {
+    color: var(--white);
+    margin-bottom: 2em;
+    font-size: 4em;
 }
-.container .textwhite{  
-    color:var(--white);
+
+.container .textwhite {
+    color: var(--white);
 }
-.planning2{
-    width:100%;
+
+.planning2 {
+    width: 100%;
     background-color: var(--white);
     text-align: center;
     margin: 5em auto;
     padding: 30px;
-    border-radius: 3rem ;
-    color:var(--black);
-    
+    border-radius: 3rem;
+    color: var(--black);
+
 
 }
-.planning2 img{
+
+.planning2 img {
     width: 100%;
-   
+
 }
 
-.planning2 p{
+.planning2 p {
     color: #000;
 }
+
 .p-planning2 {
-    color:var(--black);
+    color: var(--black);
 }
-.planning2 h3{
+
+.planning2 h3 {
     font-size: 3rem;
     margin-bottom: 1.5em;
 }
 
-#planning{
+#planning {
     padding-bottom: 5em;
 }
-.freccia{
+
+.freccia {
     background-color: var(--purple);
     text-align: center;
     height: 60px;
@@ -226,75 +239,135 @@ font-size:4em ;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin:1.5em auto 1.5em auto;
+    margin: 1.5em auto 1.5em auto;
 }
 
 
 .freccia a {
-font-size: 1.5em;
-    color:(--black);
+    font-size: 1.5em;
+    color: (--black);
 }
+
 /* end section 2 */
 /* Section 3 : #testimonials */
 
-#testimonials .container .testi-intro, .persona{
+#testimonials .container .testi-intro,
+.persona {
     text-align: center;
 }
+
 #testimonials {
-  padding: 2em;
+    padding: 2em;
 }
-#testimonials .container{
-    padding
-}
-#testimonials h2{
+
+
+
+#testimonials h2 {
     color: var(--purple);
-    font-size : 4em;
+    font-size: 4em;
     margin-top: 0.4em;
     margin-bottom: 0.75em;
 }
-#testimonials p{
+
+#testimonials p {
     line-height: 2em;
     margin-bottom: 2em;
 }
- #testimonials .persona {
+
+#testimonials .persona {
     background-color: var(--purple);
-    color : var(--white);
+    color: var(--white);
     padding: 3em 1.5em;
     border-radius: 1.5em;
     margin-bottom: 4em;
 
- }
- .testi-intro{
+}
+
+.testi-intro {
     font-size: 1.8rem;
-    margin-top:1.5em;
- }
- 
- #testimonials .persona .img-persona{
- 
+    margin-top: 1.5em;
+}
+
+#testimonials .persona .img-persona {
+
     height: 10rem;
-    width:10rem;
+    width: 10rem;
     border-radius: 50%;
     background-size: cover;
     background-position: center;
-  
- }
- #img-persona1{
-    background-image: url(../img/testimonial1.jpg);
- }
- #img-persona2{
-    background-image: url(../img/testimonial2.jpg);
- }
- #img-persona3{
-    background-image: url(../img/testimonial3.jpg);
- }
- #testimonials .persona .img-persona {
 
-    margin:auto;
- }
- .testi-instro p {
+}
+
+#img-persona1 {
+    background-image: url(../img/testimonial1.jpg);
+}
+
+#img-persona2 {
+    background-image: url(../img/testimonial2.jpg);
+}
+
+#img-persona3 {
+    background-image: url(../img/testimonial3.jpg);
+}
+
+#testimonials .persona .img-persona {
+
+    margin: auto;
+}
+
+.testi-instro p {
     margin: 1.5em 1.5em;
 
- }
- .persona p {
-    margin:1.5em 0;
- }
+}
+
+.persona p {
+    margin: 1.5em 0;
+}
+
+/*** 4section***/
+
+#features .container{
+    padding: 2em 0;
+}
+#features .container h2{
+    color:var(--white);
+    font-size:4em;
+    text-align: center;
+    margin-bottom: 1.5em;
+    margin-top:1.5em;
+}
+#features .number{
+    background-color: var(--white);
+    color: var(--purple);
+    padding: 1.5em 1.5em;
+    border-radius: 1.5em;
+    margin-bottom: 4em;
+}
+#features .number h2{
+    font-size: 2.5em;
+    margin-bottom:0.5em;
+    color:var(--purple);
+    text-align: left;
+    margin-top:0.5em;
+}
+#features .number h3{
+    font-size: 1.5em;
+    margin-bottom:0.5em;
+}
+#features .number p {
+    color:var(--black);
+    margin-bottom:0.5em;
+}
+#features .number .btn-purple{
+    background-color: var(--purple);
+    text-align: center;
+    width: 33%;
+    border-radius: 15rem;
+    font-size: 1.2em;
+    padding:0.3em;
+    margin-top:0.5em;
+}
+#features .number a {
+    text-decoration: none;
+    color:var(--white);
+}
