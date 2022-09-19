@@ -1,8 +1,5 @@
 /*** UTILITY ***/
-footer {
-    height: 200px;
-    background-color: #000;
-}
+
 .btn-purple{
     display:block;
 }
@@ -92,8 +89,8 @@ header .container {
     background-color: var(--lightblue);
     margin: 1.25rem;
     border-radius: 1.5rem;
-    padding-left: 2rem;
-    padding: 50px;
+    padding: 2rem 2em 0 2em;
+    
 
 }
 
@@ -107,7 +104,7 @@ header .container {
 .cards h3 {
     color: var(--blue);
     margin: auto;
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-align: center;
 }
 
@@ -123,9 +120,12 @@ header .container {
 }
 
 .card img {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 
+}
+#prova{
+    padding-bottom: 0;
 }
 
 .card p {
@@ -146,15 +146,12 @@ header .container {
 }
 
 .card:first-child {
-    position: relative;
-    height: 95vh;
+    padding-bottom: 0;
+
 }
 
-.card:first-child .img-div {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    text-align: center;
+.img-div {
+  margin-bottom:0;
 
 }
 
@@ -164,6 +161,7 @@ header .container {
     width: 75%;
     border-radius: 15rem;
     font-size: 1.2em;
+    margin-bottom: 2em;
 
 
 }
@@ -438,6 +436,7 @@ header .container {
 }
 #get-started .container h3{
     font-size: 2em;
+    margin: 1em 0;
 }
 #get-started .container h1{
     color:var(--orange);
@@ -460,5 +459,19 @@ header .container {
 }
 #get-started a{
     color:var(--white);
+}
+/* footer */
+footer {
+    text-align: center;
+    background-color: var(--darkgray);
+    padding:1em 0;
+
+}
+footer p {
+    color:var(--white);
+    margin:1em 0;
+}
+footer p a {
+    color:var(--purple);
 }
 
