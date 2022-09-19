@@ -3,7 +3,12 @@ footer {
     height: 200px;
     background-color: #000;
 }
-
+.btn-purple{
+    display:block;
+}
+.btn{
+    display:block;
+}
 * {
     margin: 0;
     padding: 0;
@@ -371,3 +376,57 @@ header .container {
     text-decoration: none;
     color:var(--white);
 }
+/* section 5 */
+#about-us .container{
+    padding:3em;
+    
+}
+#about-us h2{
+    color:var(--purple);
+    font-size: 2em;
+    margin-bottom:2em;
+
+}
+#about-us .container p{
+    margin-bottom:1em;
+    line-height: 1.8em;
+
+}
+#about-us .container .manager .manager-pic{
+    background-image: url(../img/about.jpg);
+    height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom:1.5em;
+}
+#about-us .container .manager .manager-pic span{
+    color:var(--purple);
+    position:absolute;
+    font-size:3em;
+    right:0;
+    top:-0.2em;
+}
+#about-us .container .manager h3{
+    color:var(--purple);
+    font-size:2.7em;
+    margin-bottom: 0.5em;;
+}
+
+#about-us .container .manager .btn-purple{
+    background-color: var(--purple);
+    text-align: center;
+    width: 50%;
+    border-radius: 15rem;
+    font-size: 1.2em;
+    padding:0.5em;
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+}
+#about-us .container .manager .btn-purple a {
+    color:white;
+    text-decoration: none;
+}
+/*Section 6 */
