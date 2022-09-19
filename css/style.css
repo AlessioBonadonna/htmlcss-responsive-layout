@@ -1,11 +1,50 @@
+/*** UTILITY ***/
 *{
     margin:0;
     padding : 0;
-    box-sizing: border-box;
-    }
-.d-flex{
-    display: flex;
+    box-sizing:border-box;
+ }
+:root{
+    --blue:#0084FD;
+    --purple: #9792E4;
+    --lightblue:#B5DDFF;
+    --orange: #FDC15F;
+    --darkgray: #333333;
+    --blak: #000;
+    --white:#FFF;
 }
 body{
     font-family: 'PT Sans', sans-serif;
+}
+
+/**** CLASS FLEX***/
+.d-flex{
+    display: flex;
+}
+
+.j-between{
+justify-content: space-between;
+}
+.aling-center{
+    align-items: center;
+}
+/** Container class ***/
+.container {
+    max-width: 600px;
+    margin : 0 auto ; 
+}
+
+/**** HEADER ***/
+header{
+    background-color: var(--blue);
+    color:var(--white);
+}
+header span i {
+    filter: invert(1);
+}
+.main-menu{
+    display:none;
+}
+header .container {
+    padding:0.5rem 0 ;
 }
