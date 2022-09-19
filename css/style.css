@@ -430,3 +430,35 @@ header .container {
     text-decoration: none;
 }
 /*Section 6 */
+#get-started .container{
+    text-align: center;
+    color:var(--white);
+    padding: 2em 0;
+
+}
+#get-started .container h3{
+    font-size: 2em;
+}
+#get-started .container h1{
+    color:var(--orange);
+    font-size: 5em;
+    margin:0.8em 0;
+}
+.btn-white{
+    background-color: var(--white);
+    color:var(--purple);
+    text-align: center;
+    width: 50%;
+    border-radius: 15rem;
+    font-size: 1.2em;
+    padding:0.5em;
+    margin: 0.9em auto;
+}
+#get-started .container .btn-white a {
+    color:var(--purple);
+    text-decoration: none;
+}
+#get-started a{
+    color:var(--white);
+}
+
