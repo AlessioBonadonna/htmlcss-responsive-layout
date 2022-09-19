@@ -474,4 +474,27 @@ footer p {
 footer p a {
     color:var(--purple);
 }
+/*responsive */
 
+@media screen and (min-width:768px){
+    
+     .container{
+        max-width: 750px;
+
+     }
+     #intro .cards{
+        display:flex;
+        flex-flow: row wrap;
+        margin-left: -0.75rem;
+        margin-right: -0.75rem;
+     }
+     #intro .card{
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+        width: calc(33.33% - 1.5rem);
+     }
+     #intro .card:first-child{
+        width:calc(66.66% - 1.5rem);
+     }
+    }
+    
