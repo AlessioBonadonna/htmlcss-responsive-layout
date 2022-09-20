@@ -332,13 +332,14 @@ header .container {
 /*** 4section***/
 
 #features .container{
-    padding: 2em 0;
-}
+    padding-bottom: 2em;}
+    
+
 #features .container h2{
     color:var(--white);
     font-size:4em;
     text-align: center;
-    margin-bottom: 1.5em;
+    margin-bottom: 1em;
     margin-top:1.5em;
 }
 #features .number{
@@ -418,7 +419,7 @@ header .container {
 #about-us .container .manager .btn-purple{
     background-color: var(--purple);
     text-align: center;
-    width: 50%;
+  
     border-radius: 15rem;
     font-size: 1.2em;
     padding:0.5em;
@@ -538,7 +539,7 @@ footer p a {
     #features .numbers{
         display:flex;
         flex-flow: row wrap;
-     
+        justify-content: space-between;
         padding-right: 0;
     }
     #features .number {
@@ -570,12 +571,12 @@ footer p a {
 }
 
 }
-@media screen and (min-width:1100px)
+@media screen and (min-width:1200px)
 {
         /* primo container */
         .container{
             max-width: 1100px;
-            padding: 3%;
+            padding: 50px;
     }
     #card-1{
         display:flex;
@@ -621,11 +622,15 @@ footer p a {
    #features .numbers{
     display:flex;
     flex-flow: row wrap;
- 
+    justify-content: space-between;
     padding-right: 0;
 }
 #features .number {
     width: calc(33% - 1.5rem);
     margin-right: 8px ;
+}
+/* section 5 */
+.btn-purple{
+    width: 100%;
 }
 }
