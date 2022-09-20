@@ -478,6 +478,9 @@ footer p a {
 /*responsive */
 
 @media screen and (min-width:768px){
+   p{
+    line-height: 1.2em;;
+   }
     /*1 section*/
      .container{
         max-width: 750px;
@@ -510,7 +513,23 @@ footer p a {
     /* 2 section*/
 
     /* section3*/
+    #testimonials .testi-intro h5{
+        font-size: 0.3;
+    }
+    #testimonials .testi-intro h2{
+        font-size:1.7em;
+    }
+    #testimonials .testi-intro p{
+        font-size:1em;
+    }
     #testimonials .persona{
-        display: :flex;
+        display:flex;
         
+    }
+    #testimonials .persona .img-persona{
+        width:55%;
+        margin-right: 3em;
+    }
+    #testimonials  .img-persona-testo {
+        text-align: initial; 
     }
