@@ -122,6 +122,7 @@ header .container {
 .card img {
     width: 100%;
     margin: 0 auto;
+    display: block;
 
 }
 #prova{
@@ -477,9 +478,10 @@ footer p a {
 /*responsive */
 
 @media screen and (min-width:768px){
-    
+    /*1 section*/
      .container{
         max-width: 750px;
+        padding:0;
 
      }
      #intro .cards{
@@ -487,14 +489,28 @@ footer p a {
         flex-flow: row wrap;
         margin-left: -0.75rem;
         margin-right: -0.75rem;
+        padding-right: 0;
      }
      #intro .card{
         margin-left: 0.75rem;
         margin-right: 0.75rem;
         width: calc(33.33% - 1.5rem);
+        padding: 32px 25px 0 25px;
      }
      #intro .card:first-child{
         width:calc(66.66% - 1.5rem);
      }
     }
-    
+    #intro .card h3{
+        font-size: 30px ;
+    }
+    #intro .card p {
+        line-height: 1.2em;
+    }
+    /* 2 section*/
+
+    /* section3*/
+    #testimonials .persona{
+        display: :flex;
+        
+    }
