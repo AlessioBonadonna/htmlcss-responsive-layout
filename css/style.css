@@ -618,4 +618,14 @@ footer p a {
     width:33%;
    }
    /* 4 section*/
+   #features .numbers{
+    display:flex;
+    flex-flow: row wrap;
+ 
+    padding-right: 0;
+}
+#features .number {
+    width: calc(33% - 1.5rem);
+    margin-right: 8px ;
+}
 }
