@@ -533,3 +533,16 @@ footer p a {
     #testimonials  .img-persona-testo {
         text-align: initial; 
     }
+    /* 4 seciton features*/
+    #features .numbers{
+        display:flex;
+        flex-flow: row wrap;
+        margin-left: -0.75rem;
+        margin-right: -0.75rem;
+        padding-right: 0;
+    }
+    #features .number {
+        width: calc(50% - 1.5rem);
+        margin-right: 20px ;
+    }
+    /* 5 section*/
