@@ -227,6 +227,7 @@ header .container {
 .planning2 h3 {
     font-size: 3rem;
     margin-bottom: 1.5em;
+    color:
 }
 
 #planning {
@@ -503,7 +504,7 @@ footer p a {
      #intro .card:first-child{
         width:calc(66.66% - 1.5rem);
      }
-    }
+    
     #intro .card h3{
         font-size: 30px ;
     }
@@ -547,23 +548,74 @@ footer p a {
     /* 5 section*/
     #about-us .container{
         display:flex;
-        padding-top:48px;
+       
         
     }
     #about-us .manager-text{
-        padding-right:10px;
-        margin-right: 30px;
-    }
-    .manager .h3 {
-        font-size: 1em;
-    }
-    #about-us .btn-purple{
-        padding: 20px  0;
         
-        display: block;
-  
-        margin: 0 auto;
+        width: calc((100% / 2)- 100px);
+        margin-right: 50px;
     }
-    
+  .manager-pic {
+    text-align: center;
+  }
+  .manager-pic h3{
+    font-size:x-large ;
+  }
+.btn-purple{
+    margin:0 ;
+    width:100%;
+    padding:50px;
+    border-radius: 0.7em;/*non torna */
+}
 
+}
+@media screen and (min-width:1100px)
+{
+        /* primo container */
+        .container{
+            max-width: 1100px;
+            padding: 3%;
+    }
+    #card-1{
+        display:flex;
+        justify-content: space-between;
+    }
+    #card-1 .card-1-div p {
+        margin:50px  0 ;
+    }
+    .img-div img{
+        width: 120%;
+        padding-right: 10px;
+        
+    }
+    .img-div{
+    margin-top: 200px;
+    padding: 0  20px;
+    }
+    /* second section*/
+    #planning{
+        padding-bottom: 10px;
+    }
+    #planning .container{
+        display:flex;
+        justify-content: space-between;
+        padding-bottom:10px
+    }
+    #planning .smallcontainer{
+        padding: 0 20px;
+    }
+    #planning .planning2  {
+        margin-top:350px;
+        margin-bottom:50px;
+        margin-left:20px
+    }
+    /* 3 section*/
     
+   #testimonials .persona .img-persona{
+    margin-top: 0;
+    margin-bottom:0;
+    width:33%;
+   }
+   /* 4 section*/
+}
