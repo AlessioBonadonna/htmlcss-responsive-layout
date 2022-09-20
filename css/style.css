@@ -58,9 +58,29 @@ header .hamburger {
 
 }
 
+.main-menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.main-menu li {
+    padding: 0.5rem 0.5rem;
+}
+
+.main-menu a {
+    padding: 0.5rem 0.5rem;
+}
+
+.main-menu li:last-child {
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: 20px;
+    text-align: center;
+}
 .main-menu {
     display: none;
 }
+
 
 header .container {
     padding: 0.5rem 0;
@@ -571,7 +591,7 @@ footer p a {
 }
 
 }
-@media screen and (min-width:1200px)
+@media screen and (min-width:992px)
 {
         /* primo container */
         .container{
@@ -623,7 +643,7 @@ footer p a {
     display:flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    padding-right: 0;
+    padding: 0 1em;
 }
 #features .number {
     width: calc(33% - 1.5rem);
@@ -633,4 +653,14 @@ footer p a {
 .btn-purple{
     width: 100%;
 }
+.main-menu {
+    display: block;
 }
+
+.hamburger {
+    display: none;
+}
+}
+
+
+/** Bonus ***/
