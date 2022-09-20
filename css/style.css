@@ -247,7 +247,7 @@ header .container {
 .planning2 h3 {
     font-size: 3rem;
     margin-bottom: 1.5em;
-    color:
+   
 }
 
 #planning {
@@ -608,11 +608,13 @@ footer p a {
     .img-div img{
         width: 120%;
         padding-right: 10px;
+        display: block;
         
     }
     .img-div{
     margin-top: 200px;
     padding: 0  20px;
+    align-items: flex-end;
     }
     /* second section*/
     #planning{
